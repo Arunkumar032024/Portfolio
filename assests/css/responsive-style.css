@@ -1,0 +1,126 @@
+@media (max-width:992px) {
+    /***********************
+    navbar-section design  
+    **********************/
+    .navbar{
+        padding-left: 0;
+    }    
+
+    
+}
+@media (max-width:767px) {
+    /***********************
+    navbar-section design  
+    **********************/
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }    
+
+
+    /***********************
+    skill-section design  
+    **********************/
+    .skill-section .skill .left{
+        width: 100%;
+    }
+    .skill-section .skill .right div progress{
+        width: 80vw;
+    }
+
+    /***********************
+    education-section design  
+    **********************/
+    .education-section,
+    .experience-section{
+        padding: 5rem 1rem 0 2rem;
+    }
+}
+@media (max-width:592px) {
+    /***********************
+    home-section design  
+    **********************/
+    .home-section{
+        padding: 3rem 1rem; 
+    }   
+
+
+    /***********************
+    resume-section design  
+    **********************/
+    .resume-section{
+        padding: 5rem 1rem;
+    }
+
+    /***********************
+    portfolio-section design  
+    **********************/
+    .portfolio-section{
+        padding: 5rem 1rem;
+    }
+
+    .portfolio-section .grid{
+        grid-template-columns: 46% 46%;
+    }
+
+
+    /***********************
+    contact-section design  
+    **********************/
+    .contact-section{
+        padding: 5rem 1rem;
+    }
+    .contact-section .div{
+        flex-direction: column;
+    }
+}
+@media (max-width:480px) {
+    /***********************
+    banner-section design  
+    **********************/
+    .banner-section{    
+        padding: 2rem;
+    }
+
+    /***********************
+    home-section design  
+    **********************/
+    .home-section{
+        grid-template-columns: 100%;
+    }   
+
+    /***********************
+    skill-section design  
+    **********************/
+    .skill-section{
+        padding: 5rem 1rem;
+    }
+}
+@media (max-width:333px) {
+    /***********************
+    navbar-section design  
+    **********************/
+    nav{
+        padding: 0.5rem;
+    }
+
+    /***********************
+    portfolio-section design  
+    **********************/
+    .portfolio-section .grid{
+        grid-template-columns: 97%;
+    }
+    /***********************
+    footer-section design  
+    **********************/
+    footer div{
+        width: 100%;
+    }
+}
